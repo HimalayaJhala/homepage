@@ -41,9 +41,10 @@ const App = () => {
     <div className="bg-hero-image h-fit sm:h-screen bg-cover bg-center p-20  ">
       <div className=" flex flex-col sm:flex-row items-center  w-full p-10 gap-10 bg-white/20 backdrop-blur-md rounded-3xl  transition-transform transform  hover:-translate-y-6  hover:scale-105 ">
         <img
-          className="max-h-64 max-w-64 rounded-full object-fill "
-          src="/prof.jpeg"
+          className="max-h-64 max-w-64 rounded-full object-fill"
+          src={`${process.env.PUBLIC_URL}/prof.jpeg`}
         />
+
         <p className="text-white text-3xl z-10 relative   w-full">
           I'm Himalaya: a versatile frontend developer proficient in ReactJS,
           React Native, Next.js and more. With a strong focus on creating
