@@ -32,7 +32,7 @@ const App = () => {
       scrollTrigger: {
         trigger: element,
         start: "top-=300 center", // Starts 200px before the element hits the center of the viewport
-        end: "bottom top", // Ends when the bottom of the element hits the top of the viewport
+        end: "bottom top ", // Ends when the bottom of the element hits the top of the viewport
         scrub: true, // Link animation to scroll position
       },
     });
